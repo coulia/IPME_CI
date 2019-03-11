@@ -3,6 +3,3 @@ php:
         - 7.1.26
         - 7.2.15
 install: composer install
-script:
-        - ./phpunit
-        - ./security:check

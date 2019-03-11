@@ -1,5 +1,5 @@
 language: php
-rvm:
+php:
         - 7.1.26
         - 7.2.15
 install: composer install

@@ -40,5 +40,5 @@ class MultiplyTest extends TestCase
 	
 	public function testF(){
 		$this->assertSame(60, $this->multiply->multiplyBy6(10));
-
+	}
 }

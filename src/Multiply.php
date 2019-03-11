@@ -12,10 +12,17 @@ class Multiply
         $number->multiply(5);
         return intval($number->getValue());
     }
+	
+	public function multiplyBy6(int $number)
+    {
+        $number = new BigNumber($number);
+        $number->multiply(6);
+        return intval($number->getValue());
+    }
 
     public function multiplyBy7(int $number){
-	$number = new BigNumber($number);
-	$number->multiply(7);
+		$number = new BigNumber($number);
+		$number->multiply(7);
 	return intval($number->getValue());
     }
 }

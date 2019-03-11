@@ -1,0 +1,8 @@
+language: php
+rvm:
+        - 7.1.26
+        - 7.2.15
+install: composer
+script:
+        - ./phpunit.sh
+        - ./security-checker.sh

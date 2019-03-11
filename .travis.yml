@@ -3,5 +3,4 @@ php:
         - 7.1.9
 install: composer install
 script:
-        - ./phpunit
-        - ./security:check
+        - ./bin/phpunit

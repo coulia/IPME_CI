@@ -5,4 +5,4 @@ install: composer install
 script:
         - ./bin/phpunit
         - ./bin/phpunit --group integration
-        - ./bin/security-checker composer.lock
+        - ./bin/security-checker security:check composer.lock
